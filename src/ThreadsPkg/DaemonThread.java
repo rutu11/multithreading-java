@@ -9,7 +9,7 @@ public class DaemonThread extends Thread{
     }
 
     //    User Thread -- threads which works for us
-//    Daemon Thread -- runs in the background, JVM doesn't wait for this threads to wait
+//    Daemon Thread -- runs in the background, JVM doesn't wait for this threads to end
 
     public static void main(String[] args) {
         DaemonThread t1 = new DaemonThread();
